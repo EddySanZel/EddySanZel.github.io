@@ -6,27 +6,46 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mi página web Personal</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <header>
-            <h1>Laboratorio 2: Página Personal</h1>
-        </header>
-        <nav>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <h1>Bienvenidos a mi Blog Personal</h1>
-        <h2>Ingeniería de Sistemas de la Universidad Nacional de Cajamarca</h2>
-        <h2>Soy Edilberto Sangay Zelada</h2>
-        <img src="mama.jpg" width="300">
-        <footer>
-            <h3>&copy;Ingeniería Web 2021</h3>
-        </footer>        
-        <script src="" async defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog Personal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="EstiloPersonalIndex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  </head>
+  <body >
+    <header class="titulo">
+      <h1>Blog Personal</h1>
+    </header>
+
+    <section>
+      <article>
+        <table>
+          <tr>
+            <td>
+                <img src="mama.jpg" alt="image" height="400" >
+            </td>
+            <td id="info">
+                <h2>Mi nombre es: </h2>
+                <h2 id="nombre">Edilberto Sangay Zelada</h2> 
+                <p>Técnico Titulado en Computación e Informatica y estudiante de Ingeniería de Sistemas
+                  en la Universidad Nacional de Cajamarca, actualmente tengo 
+                  28 años y me gustan los videojuegos, actualmente resido en la hermosa ciudad de Cajamarca</p>
+                  <nav>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                  </nav>
+            </td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <footer class="pie">© 2021 Copyright Ingeniería Web</footer>
+    
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <script src="" async defer></script>
     </body>
 </html>
