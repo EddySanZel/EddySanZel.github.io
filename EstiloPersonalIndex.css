@@ -15,8 +15,8 @@ h2{
     display: inline;
 }
 a{
-    color: white;
-    background: #E32B2C;
+    color: rgb(7, 7, 7);
+    background: #29c3f1;
     border-radius: 1px;
     text-decoration: none;
     outline: none;
