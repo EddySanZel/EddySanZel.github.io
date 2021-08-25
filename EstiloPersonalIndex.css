@@ -3,7 +3,7 @@ body{
     background: #2e41ee;
 }
 .titulo{
-    color: rgb(218, 76, 142);
+    color: rgb(252, 235, 7);
     margin-left: 10px;
 
 }
@@ -31,12 +31,10 @@ a{
 img{
     border-radius: 10px;
 }
-section{
-    margin-top: 10px;
-    padding: 50px;
-    background-color: rgb(155, 79, 241);
-    background-image: url("cajamarca.jpg");
-    border-radius: 10px;
+body{
+    height:1080px;
+    background-image: url("plazacajamarca.jpg");
+    background-size: 120rem;
 
     
 }
