@@ -1,4 +1,4 @@
-body{
+.bodyinicio{
     font-family: 'Rampart', serif; /*Bold Negrita*/
     background: #2e41ee;
 }
@@ -8,13 +8,13 @@ body{
 
 }
 
-h2{
+.intro{
     font-size: 30px;
     color: rgb(74, 4, 238);
     margin-left: 10px;
     display: inline;
 }
-a{
+.etiqueta{
     color: rgb(7, 7, 7);
     background: #29c3f1;
     border-radius: 1px;
@@ -28,21 +28,22 @@ a{
     margin-left: 5px;
     margin-top: 100px;
 }
-img{
+.imagenpersonal{
     border-radius: 10px;
 }
-body{
-    height:1080px;
-    background-image: url("imagenes\plazacajamarca.jpg");
-    background-size: 120rem;
+.fondo{
+    height: 1080px;
+    background-image: url("imagenes/plazacajamarca.jpg");
+    background-size: 100%;
+    
 
     
 }
-article{
+.articulo{
     padding-left: 200px;
     padding-right: 200px;
 }
-p{
+.bodyinicio{
     color: rgb(252, 252, 252);
     margin-left: 10px;
     text-align: justify;
@@ -51,7 +52,7 @@ p{
     font-size: 15px;
     margin-bottom: 40px;
 }
- #nombre{
+ .nombre{
      color: #E32B2C;
  }
 .pie{
@@ -59,3 +60,174 @@ p{
     color: white;
     margin-top: 20px;
 }
+
+
+/*Estilos About*/
+.aboutbody{
+    font-family: 'Rampart',serif; /*Bold Negrita*/
+    background: #1a4dac;
+}
+.experiencia{
+    color: rgb(243, 158, 30);
+    margin-left: 10px;
+
+}
+.experiencia{
+    font-size: 30px;
+    text-decoration: underline;
+    display: inline;
+}
+.aboutref{
+    /*color: white;
+    background: #1a4dac;
+    border-radius: 1px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 10px;*/
+    color: rgb(7, 7, 7);
+    background: #29c3f1;
+    border-radius: 1px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+.aboutnav{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.aboutimagen{
+    border-radius: 10px;
+    line-height: 10px;
+}
+.aboutseccion{
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    background: #1a4dac;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.contenido{
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.contenido2{
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.pie{
+    text-align: right;
+    color: white;
+    margin-top: 10px;
+}   
+
+
+/*Estilo de Contacto*/
+
+.Contacbody{
+    font-family:'Merriweather', serif; /*Bold Negrita*/
+    background: #73e05e;
+    margin: 20px;
+}
+.logotable{
+    display: inline-block;
+    
+}
+.tablaDatos{
+    margin-left: 200px;
+    padding-bottom: 50px;
+    /*font-size: small;*/
+    display: inline-block;
+}
+.eddygame{
+    text-align: right;
+    border-radius: 1000000px;
+    border: 10px solid #F0EACF;
+
+}
+.contactoinfo{
+    background: #3f848f;    
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    /*text-align: left;
+    display: inline;*/
+    font-size: 18px;
+}
+.redes{
+    text-align: left;
+}
+.contactarticulos{
+    background: #3f848f;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 10px solid #F0EACF;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.Contactext, .contactoinfo  {
+    color: #F0EACF;
+}
+.piecontacto{
+    text-align: right;
+    color: #f00e0e;
+    margin-top: 100px;
+}
+
+
+/* BARRA SOCIAL FIJA*/
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} 
+	.social ul li .icon-instagram {background: #ee8c1d;}
+	.social ul li .icon-whatsapp {background: #26a116;}
+	.social ul li .icon-youtube {background: #d42029;}
+	.social ul li .icon-twitch {background: #6f0779;}
+    .social ul li .icon-github {background: #0f0f0f;}
+
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}

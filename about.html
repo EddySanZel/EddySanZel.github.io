@@ -10,28 +10,47 @@
         <title>Primer Laboratorio de Ingeniería Web Bv</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="EstiloPersonalAbout.css">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="EstiloPersonalIndex.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     
       </head>
-    <body>
+    <body class="aboutbody">
+
+        <div class="social">
+            <ul>
+              <li><a href="http://www.facebook.com/EddySzGames" target="_blank" class="icon-facebook"></a></li>
+              <li><a href="https://www.instagram.com/xd_eddy/" target="_blank" class="icon-instagram"></a></li>
+              <li><a href="https://wa.me/qr/TPMFGKXLLVVPP1" target="_blank" class="icon-whatsapp"></a></li>
+              <li><a href="https://cutt.ly/qWf2xO7" target="_blank" class="icon-youtube"></a></li>
+              <li><a href="https://www.twitch.tv/eddysanz" target="_blank" class="icon-twitch"></a></li>
+              <li><a href="https://eddysanzel.github.io/" target="_blank" class="icon-github"></a></li>            
+            </ul>
+          </div>
+
         <header>
             <h1>About</h1>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact</a>
+        <nav class="aboutnav">
+            <a href="index.html" class="aboutref">Home</a>
+            <a href="contact.html" class="aboutref">Contact</a>
         </nav>
-        <section>
-            <table>
+        <section class="aboutseccion">
+            <table >
                 <tr>
                     <td>
-                        <img src="imagenes\upn.jpg" alt="about image" height="100" >
+                        <img src="imagenes/upn.jpg" alt="about image" height="100" class="aboutimagen" >
+                        <img src="imagenes/jym.jpg" alt="about image" height="100" class="aboutimagen" >
+                        <img src="imagenes/graficaaron.jpg" alt="about image" height="100" class="aboutimagen" ></br></br></br>
                     </td>
+                </tr>
+                <tr>
                     <td>
-        <h2> EXPERIENCIA LABORAL</h2></br>
+                        
+        <h2 class="experiencia"> EXPERIENCIA LABORAL</h2></br></br>
 
-           <h3> Enero 2012 – Diciembre 2013</br>
+           <h3 class="contenido"> Enero 2012 – Diciembre 2013</br>
             GRÁFICA AARÓN S.R.L</br>
             Cajamarca - Perú</br>
             Empresa especializada en diseño gráfico, tarjetería en general, serigrafía.</br>
@@ -59,10 +78,36 @@
             
             Funciones: Mantener los equipo de cómputo y proyectores en óptimas condiciones. Dar capacitación a los docentes para el uso de dichos equipo y/o programas que sean solicitados por la Universidad.
             </h3>
-            <h2>Hobbies y Habilidades</h2></br>
-            <h3>Hobbies:	Lectura, Deportes, Juegos y Tecnología	</br>	
+            <h3 class="contenido2">Hobbies y Habilidades</h3>
+            <h3 class="contenido">Hobbies:	Lectura, Deportes, Juegos y Tecnología	</br>	
                 Habilidades:	 Aprendizaje Rápido, Perseverancia, Disciplina.
             </h3>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/cajamarca.jpg" class="d-block w-100" alt="slide1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/cajamarca2.jpg" class="d-block jesus w-100" alt="slide2">
+                  </div>  
+                  <div class="carousel-item">
+                    <img src="imagenes/cajamarca3.jpg" class="d-block jesus w-100" alt="slide2">
+                  </div>                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
             <footer class="pie">© 2021 Copyright Ingeniería Web</footer>
 
         <script src="" async defer></script>
