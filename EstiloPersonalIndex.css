@@ -166,6 +166,10 @@
     border: 10px solid #F0EACF;
 
 }
+.tituform{
+    justify-content: center;
+    
+}
 .contactoinfo{
     background: #3f848f;    
     padding-left: 4px;
@@ -231,3 +235,14 @@
 		background: #000; 
 		padding: 10px 30px; 
 	}
+
+
+
+    form {
+        width: 400px;
+        background: rgb(130, 223, 168);
+        padding: 30px;
+        margin-left: 500px;
+        margin-top: 25px;
+        border-radius: 4px;
+    }
