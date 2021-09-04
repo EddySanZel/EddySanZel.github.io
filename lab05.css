@@ -1,0 +1,70 @@
+/* Estilo Lab05*/
+.fondolab05{
+    background: #C8F5E8;
+    text-align: center;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima;   
+    padding-bottom: 30px;
+    padding-top: 3px;
+}
+.encabezado{
+    font-weight: bold;
+    
+}
+.tabDatos{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.tabresul{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    margin-top: 30px;    
+}
+.blue1{
+    background-color: #1D6FA9;
+    border: 2px solid #135380;
+    color: white;
+}
+input{
+    border: 2px solid #B74919;
+}
+.red1{
+    background-color: #B74919;
+    border: 2px solid #993B12;
+    color: white;
+}
+.extraer{
+    background-color: #F19D19;
+    border: 2px solid white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.extraer:hover{
+    background-color: #c9871d;
+    cursor: pointer;
+}
+.colorear{
+    background-color: #B74919;
+    border: 2px solid #993B12;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    
+}
+.colorear:hover{
+    background-color: #a33a0d;
+    cursor: pointer;
+}
+.input2{
+    width: 100px;
+    
+}
