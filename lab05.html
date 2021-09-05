@@ -10,45 +10,45 @@
         <title>Lab 05: Taller de JavaScript</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="lab05.css">
+        <link rel="stylesheet" href="lab05.css">        
     </head>
     <body>
         <div class="fondolab05">
             <h1 class="encabezado">LAB 05:TALLER DE JAVASCRIPT</h1>
             <table class="tabDatos">
                 <tr>
-                    <td class="blue1">Apellidos y Nombres:</td>
-                    <td><input type="text" placeholder="Apellidos y Nombres"></td>
-                    <td><button class="extraer">Extraer</button></td>
-                    <td><button class="colorear">Colorear</button></td>
+                    <td class="blue1" >Apellidos y Nombres:</td>
+                    <td><input type="text" placeholder="Apellidos y Nombres" id="name"></td>
+                    <td><button class="extraer" id="extraer">Extraer</button></td>
+                    <td><button class="colorear" id="colorear">Colorear</button></td>
                 </tr>
                 <tr>
                     <td class="blue1">Fecha de Nacimiento:</td>
-                    <td><input type="date"></td>
+                    <td><input type="date" id="date"></td>
                 </tr>
             </table>
             <table class="tabresul">
                 <tr>
                     <td class="blue1">Apellido Paterno: </td>
-                    <td><input type="text" class="input2" readonly></td>
+                    <td><input type="text" class="input2" readonly id="aPaterno"></td>
                     <td class="red1">Longitud del Apellido: </td>
-                    <td><input type="text" class="input2" readonly></td>
+                    <td><input type="text" class="input2" readonly id="cantid"></td>
                 </tr>
                 <tr>
                     <td class="blue1">Apellido Materno: </td> 
-                    <td><input type="text" class="input2" readonly></td>
+                    <td><input type="text" class="input2" readonly id="aMaterno"></td>
                     <td class="red1">Edad: </td>
-                    <td><input type="text" class="input2" readonly></td>                   
+                    <td><input type="text" class="input2" readonly id="edad"></td>                   
                 </tr>
                 <tr>
                     <td class="blue1">Nombres: </td>          
-                    <td><input type="text" class="input2" readonly></td>
+                    <td><input type="text" class="input2" readonly id="aNombre"></td>
                     <td class="red1">Mes en Letras: </td>
-                    <td><input type="text" class="input2" readonly></td>          
+                    <td><input type="text" class="input2" readonly id="mes"></td>          
                 </tr>
             </table>
         </div>
         
-        <script src="" async defer></script>
+        <script src="lab05.js" async defer></script>
     </body>
 </html>
