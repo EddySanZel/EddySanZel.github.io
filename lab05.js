@@ -45,6 +45,7 @@ let s=1;
 function cambiarColor(){
     let azul = document.getElementsByClassName("blue");
     let rojo = document.getElementsByClassName("red");
+    let colorear = document.getElementById("colorear");
     
     if (s){
         for (let i = 0; i < azul.length; i++){
@@ -56,6 +57,8 @@ function cambiarColor(){
             rojo[i].style.backgroundColor="#1D6FA9";
             rojo[i].style.border="2px solid #135380";
         } 
+        colorear.style.backgroundColor="#1D6FA9"
+        colorear.style.border="2px solid #135380"
         s=0;
     } else{
         for (let i = 0; i < azul.length; i++){
@@ -67,6 +70,8 @@ function cambiarColor(){
             rojo[i].style.backgroundColor="#B74919";
             rojo[i].style.border="2px solid #993B12";
         } 
+        colorear.style.backgroundColor="#B74919"
+        colorear.style.border="2px solid #993B12"
         s=1;
     }
 }
